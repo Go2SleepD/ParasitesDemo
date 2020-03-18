@@ -38,6 +38,7 @@ MonoBehaviour:
     - 
     variableCategoryIDs: 00000000
   events:
-  - Gotcha!
   - RUN TYPE
   - FIGHT TYPE
+  - LEVEL START
+  - GOTCHA!
