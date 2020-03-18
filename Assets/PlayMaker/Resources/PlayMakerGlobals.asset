@@ -21,6 +21,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 3
+    - useVariable: 1
+      name: Money
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1000
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -36,9 +42,13 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 0000000000000000
   events:
   - RUN TYPE
   - FIGHT TYPE
   - LEVEL START
   - GOTCHA!
+  - MISS
+  - PARASITE CHECK
+  - PARSITE DEAD
+  - YOU HITTED
